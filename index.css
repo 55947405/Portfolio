@@ -1,0 +1,178 @@
+main{
+    /* background-color: black; */
+    height: 700px;
+}
+.head{
+    display: flex;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+.logo{
+    width: 180px;
+    margin-left: 50px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 680px;
+    margin-top: 25px;
+    font-size: 120%;
+    font-weight: 800;
+    /* padding-top: 5px; */
+}
+.n1:hover,.n2:hover,.n3:hover,.n4:hover{
+    font-size: larger;
+    color: red;
+    cursor: pointer;
+}
+.sunpic{
+    width: 23px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.sunpic:hover{
+    cursor: pointer;
+}
+.moonpic{
+    width: 25px;
+    height: 28px;
+    padding-left: 15px;
+    /* display: none; */
+}
+#moon-pic{
+    display: none;
+}
+.moonpic:hover{
+    cursor: pointer;
+}
+.body-light{
+    background-color: white;
+    color: black;
+}
+.para{
+    color: rgb(118, 128, 136);
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: cursive;
+    margin-top: 250px;
+    margin-left: 90px;
+    width: fit-content;
+}
+.name{
+    font-weight: 700;
+}
+.name:hover{
+    font-size: larger;
+    cursor: pointer;
+}
+.main{
+    width: 350px;
+    border-radius: 50%;
+    margin-right: 200px;
+    margin-top: 130px;  
+}
+.main:hover{
+    width: 330px;
+    cursor: pointer;
+}
+.about1{
+    background-color: rgb(151, 162, 170);
+    color: black;
+    border-radius: 20px;
+    height: 400px;
+}
+.about{
+    font-size: x-large;
+    font-weight: 300;
+    font-family: cursive;
+    margin-left: 30px;
+    background-color: rgb(151, 162, 170);
+    color: black;
+    border-radius: 20px;
+    width: 1400px;
+    height: 300px;
+}
+
+.button{
+    color: rgb(19, 18, 18);
+    font-size: large;
+    font-weight: 400;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.foot{
+    background-color: rgb(151, 162, 170);
+    width: 1400px;
+    height: auto;
+    border-radius: 20px;
+    width: 1430px;
+}
+.para2{
+    background-color: rgb(151, 162, 170);
+    color: black;
+    border-radius: 20px;
+    margin-left: 38%;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: cursive;
+    height: 50px;
+    width: 300px;
+}
+.logo3{
+    display: flex;
+    gap: 30px;
+    margin-left: 38%;
+    /* background-color: red; */
+    /* justify-content: center; */
+}
+.s1:hover,.s2:hover,.s3:hover{
+    width: 50px;
+    cursor: pointer;
+}
+.flexbox{
+    display: flex;
+    /* background-color: white; */
+    gap: 60px;
+    margin-right: 50px;
+}
+.flexcontainer{
+    width: 620px;
+    height: 280px;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(151, 162, 170);
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    padding-left: 29px;
+    align-items: center;
+}
+.flexcontainer:hover{
+    font-size: 17px;
+    color: rgb(101, 26, 26);
+}
+.skills,.pics{
+    color: rgb(118, 128, 136);
+}
+.img1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+.picture{
+    width: 350px;
+    border-radius: 30%;
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
